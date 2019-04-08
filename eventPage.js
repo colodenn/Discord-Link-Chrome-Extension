@@ -1,4 +1,3 @@
-var current_url = window.location.href;
 var contextMenuItem = {
 	"id": "discord",
 	"title": "discord_title",
@@ -6,4 +5,11 @@ var contextMenuItem = {
 };
 
 chrome.contextMenus.create(contextMenuItem);
-console.log(current_url);
+
+
+
+chrome.contextMenus.onClicked.addListener(function(pageUrl) {
+	// var current_url = window.location.href;
+	var URL = pageUrl.pageUrl;
+	console.log(URL);
+});
