@@ -7,15 +7,14 @@ var contextMenuItem = {
 
 chrome.contextMenus.create(contextMenuItem);
 
-
-
-chrome.contextMenus.onClicked.addListener(function(pageUrl) {
-	// var current_url = window.location.href;
+chrome.contextMenus.onClicked.addListener(function (pageUrl) {
+	
 	var xhttp = new XMLHttpRequest();
-
 	var URL = pageUrl.pageUrl;
 	console.log(URL);
 	xhttp.open("POST", webhook, true);
 	xhttp.setRequestHeader("Content-Type", "application/json");
-	xhttp.send(JSON.stringify({"content":URL}));
+	xhttp.send(JSON.stringify({
+		"content": URL
+	}));
 });

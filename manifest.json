@@ -1,6 +1,6 @@
   {
     "name": "Discord Link Sender",
-    "description" : "Base Level Extension",
+    "description": "Base Level Extension",
     "version": "1.0",
     "manifest_version": 2,
     "icons": {
@@ -8,16 +8,20 @@
     },
     "browser_action": {
       "default_popup": "hello.html",
+
       "default_icon": "Discord-Logo-White.png"
     },
 
     "permissions": [
-        "contextMenus"
+      "contextMenus",
+      "storage",
+      "declarativeContent",
+      "activeTab"
     ],
 
     "background": {
-        "scripts": ["eventPage.js"],
-        "persistent": true
+      "scripts": ["eventPage.js"],
+      "persistent": true
     },
 
 
@@ -27,8 +31,8 @@
           "default": "Ctrl+Shift+F",
           "mac": "MacCtrl+Shift+F"
         },
-        "description": "Opens hello.html"
+        "description": "Opens Discord Chrome Extension"
       }
     }
-  
+
   }
