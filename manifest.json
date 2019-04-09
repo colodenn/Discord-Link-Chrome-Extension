@@ -16,7 +16,8 @@
       "contextMenus",
       "storage",
       "declarativeContent",
-      "activeTab"
+      "activeTab",
+      "background"
     ],
 
     "background": {
