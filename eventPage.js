@@ -1,4 +1,3 @@
-// var webhook = "https://discordapp.com/api/webhooks/564579809661943838/fNuj_dNry8ZfgC_5Q8iLItpdnUHUnn44pJIzVy90MT3NcSjwhA9JWZMz6ZtG9V_-m3TL";
 var contextMenuItem = {
 	"id": "discord",
 	"title": "Send Link to Discord",
@@ -23,7 +22,7 @@ chrome.contextMenus.onClicked.addListener(function (pageUrl) {
 	xhttp.open("POST", webhook, true);
 	xhttp.setRequestHeader("Content-Type", "application/json");
 	xhttp.send(JSON.stringify({
-		"content": "**"+ name + ":"  + "**   " + URL
+		"content": "**" + name + ":" + "**   " + URL
 	}));
 });
 

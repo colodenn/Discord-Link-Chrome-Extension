@@ -10,14 +10,21 @@
 </head>
 
 <body>
+	<div class="header">
+		<a href="https://codenn.de">
+			<p id="discord">Discord</p>
+			<p id="linksender">link sender</p>
+		</a>
+	</div>
+	<div class="input"><input id="webhook" type="email" class="form-control" id="exampleInputEmail1"
+			aria-describedby="emailHelp" placeholder="Webhook url">
+		<input id="name" id="servername" type="email" class="form-control" id="exampleInputEmail1"
+			aria-describedby="emailHelp" placeholder="Name (optional)"></div>
 	<div id="result"></div>
-	<input id="webhook" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-		placeholder="Webhook url">
-	<input id="name" id="servername" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-		placeholder="Name (optional)">
+
 	<!-- <input type="text" value="enter webhook url">
 	<input type="text" value="enter server name"> -->
-	<button id="button">Save</button>
+	<button id="button" type="button" class="btn btn-dark">Save</button>
 
 	<script src="./popout.js"></script>
 	<script src="./eventPage.js"></script>
