@@ -12,4 +12,4 @@
 
 *Have fun.* 
 
-![](/src/assets/Unbekannt.png)
+![](https://github.com/colodenn/Discord-Link-Chrome-Extension/blob/master/src/assets/Unbenannt.PNG)
