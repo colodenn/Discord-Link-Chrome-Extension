@@ -1,8 +1,8 @@
   {
     "name": "Discord Link Sender",
-    "description": "Base Level Extension",
+    "description": "Send a link to Discord",
     "version": "1.0",
-    "manifest_version": 2,
+    "manifest_version": 9,
     "icons": {
       "128": "Discord-Logo-White.png"
     },
