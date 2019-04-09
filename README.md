@@ -9,6 +9,7 @@
 **chrome settings** **->** **extensions**.
 *Enable developer mode and load the package.*
 *Here you go. Just add your **weebhook** link from your Discord Server (or ask the server admin) and press save.*
+*To send a link you need to press the right mouse button and then click send link to discord, Voilà!*
 
 *Have fun.* 
 
