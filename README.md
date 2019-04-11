@@ -2,7 +2,8 @@
 
 ## Installation
 
-Add extension ``` https://chrome.google.com/webstore/detail/discord-link-sender/eomemhkkpegienlgknkpfimmombfjooc?hl=de&gl=DE ``` 
+*Add extension* 
+``` https://chrome.google.com/webstore/detail/discord-link-sender/eomemhkkpegienlgknkpfimmombfjooc?hl=de&gl=DE ``` 
 
 **or**
 
