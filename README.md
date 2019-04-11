@@ -2,6 +2,10 @@
 
 ## Installation
 
+Add extension ``` https://chrome.google.com/webstore/detail/discord-link-sender/eomemhkkpegienlgknkpfimmombfjooc?hl=de&gl=DE ``` 
+
+**or**
+
 *Just download the repository* 
 
 ``` git pull https://github.com/colodenn/Discord-Link-Chrome-Extension ``` 
